@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 250px;
+  height: auto;
+  border: 1px solid darkgray;
+  padding: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
